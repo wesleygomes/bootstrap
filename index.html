@@ -9,7 +9,39 @@
 	<title></title>
 </head>
 <body>
-	<section class="container">
+	
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				 <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#sobre-nos">Sobre Nós</a></li>
+						<li><a href="#nossos-projetos">Nossos Projetos</a></li>
+						<li><a href="#depoimentos">Depoimentos</a></li>
+						<li><a href="#videos">Vídeo</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="topcasa-banner">
+			<h1>TopCaaFina Arquitetura</h1>
+			<p>Projetando a casa dos sonhos desde 2000 AC</p>
+			<button class="btn btn-primary btn-lg">Contate-nos agora</button>
+		</div>
+	</header>
+
+	<section id="sobre-nos" class="container">
 		<h2>Sobre Nós</h2>
 		<img class="img-responsive" src="img/empresa.jpg">
 
@@ -55,7 +87,7 @@
 		</div>
 	</div>
 
-	<section class="container">
+	<section id="nossos-projetos" class="container">
 		<h2>Nossos Projetos</h2>
 		<figure class="thumbnail">
 	     	<img class="img-responsive" src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
@@ -103,7 +135,7 @@
 	    </figure>
 	</section>
 
-	<section>
+	<section id="depoimentos">
 		<h2 class="container titulo-depoimentos">Depoimentos de Clientes</h2>
 
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -151,9 +183,18 @@
 		</div>
 	</section>
 
-	<h2>Vídeo Institucional</h2>
-	
-	
+	<!-- Video Institucional -->
+	<footer>
+		<address>
+			<strong>TopCasaFina Arquitetura</strong><br>
+			Rua Vergueiro, 3182, Vila Mariana<br>
+			São Paulo - SP <br>
+			<abbr class="title">Tel:</abbr> (11) 5571-1254 ou 5031-1474 <br>
+		</address>		
+		<address>
+			Email: contato.topcasafina.com.br
+		</address>
+	</footer>
 
 	<script type="text/javascript" src="jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
