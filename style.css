@@ -15,14 +15,42 @@ header {
 	background-size: cover;
 	background-position: top center;
 	height: 100%;
+	position: relative;
+}
+
+header h1{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .topcasa-banner{
 	color: #FFF;
-	background-color: rgb(0, 0, 0, 0.5);
-	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .5s;
 
 }
+
+
+
+@media(min-width: 768px){
+	.projetos-responsivo {
+		width: 50%;
+		float: left;
+	}
+
+	#paineis-sobre{
+		margin-top: 0px !important;
+	}
+}
+
+
 
 footer{
 	background-color: #333;
